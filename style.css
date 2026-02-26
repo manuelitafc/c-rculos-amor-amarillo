@@ -1,0 +1,67 @@
+div{
+  background-color: #ffd4f6;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  animation-name: cuchara;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.azul{
+  background-color: #3d7d36;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 500px;
+  animation-name: tenedor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cuchara{
+  0%{
+   background-color: #ffd4f6; 
+    top: 50px;
+    left: 100px;
+    border-radius: 50%;
+  }
+  50%{
+    background-color: #1a759c;
+    top: 60px;
+    left: 200px;
+    border-radius: 30%;
+  }
+  100%{
+   background-color: #ffd4f6;  
+   top: 70px;
+   left: 300px;
+   border-radius: 50%;
+   }
+}
+  
+@keyframes tenedor{
+  0%{
+   background-color: #3d7d36; 
+    top: 10px;
+    left: 500px;
+    border-radius: 50%;
+  }
+  50%{
+    background-color: #367d72;
+    top: 200px;
+    left: 500px;
+    border-radius: 50%;
+  }
+  100%{
+   background-color: #51367d;  
+   top: 10px;
+   left: 500px;
+   border-radius: 50%;
+  }
+}
